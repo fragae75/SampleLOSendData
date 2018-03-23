@@ -11,6 +11,8 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 
 import com.google.gson.Gson;
+import com.test.SampleLOSendData.DeviceData;
+import com.test.SampleLOSendData.MyKey;
 
 public class SampleLOSendData {
 
