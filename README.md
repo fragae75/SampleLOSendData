@@ -5,18 +5,22 @@ Sample application for Datavenue Live Objects : https://liveobjects.orange-busin
 It is a simple sample that sends a MQTT payload to Live Objects as a MQTT device ("json+device").
 It generates a standard Live Objects MQTT payload as follow :<br> 
 {<br>
+<dd>
 	"streamId":"StreamSampleLO001",<br>
 	"timestamp":"2018-04-07T15:52:31.150Z",<br>
 	"location":{"lat":45.759723,"lon":4.84223},<br>
 	"model":"demo",<br>
 	"value":<br>
 	{<br>
+	<dd>
 		"hygrometry":xx,<br>
 		"revmin":xxxx,<br>
 		"temperature":xx<br>
+	</dd>
 	},<br>
 	"tags":["SampleLO"],<br>
 	"metadata":{"source":"urn:lo:nsid:sensor:SampleLO001","connector":"mqtt"}<br>
+</dd>
 }<br>
 
 This sample generates the same payload as the Android app available at : https://play.google.com/store/apps/details?id=com.orange.lo.assetdemo <br>
