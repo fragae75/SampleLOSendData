@@ -30,7 +30,7 @@ Don't check "Lora" otherwise the account will not be instantly created.
 
 2) Generate your API key : menu Configuration/API Keys click on "Add"
 
-3) Create a MyKey class : 
+3) Create a MyKey class : <br>
 
 
 	package com.test.SampleLOSendData; 
