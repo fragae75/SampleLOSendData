@@ -17,4 +17,4 @@ public final class MyKey { <br>
 	static String key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; <br>
 }<br>
 
-4) You will find into the repository 4 jar files into the /lib. Add them as "external files" into you IDE (eg Eclipse).
+4) You will find into the repository 4 jar files into the /lib. Add them as "external JARs" into you IDE (eg Eclipse).
