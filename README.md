@@ -3,27 +3,25 @@
 Sample application for Datavenue Live Objects : https://liveobjects.orange-business.com/#/liveobjects
 
 It is a simple sample that sends a MQTT payload to Live Objects as a MQTT device ("json+device").
-It generates a standard Live Objects MQTT payload as follow :<br> 
-{<br>
-<dd>
-	"streamId":"StreamSampleLO001",<br>
-	"timestamp":"2018-04-07T15:52:31.150Z",<br>
-	"location":{"lat":45.759723,"lon":4.84223},<br>
-	"model":"demo",<br>
-	"value":<br>
+It generates a standard Live Objects MQTT payload as follow :<br>
+ 
 	{<br>
-	<dd>
-		"hygrometry":xx,<br>
-		"revmin":xxxx,<br>
-		"temperature":xx<br>
-	</dd>
-	},<br>
-	"tags":["SampleLO"],<br>
-	"metadata":{"source":"urn:lo:nsid:sensor:SampleLO001","connector":"mqtt"}<br>
-</dd>
-}<br>
+		"streamId":"StreamSampleLO001",<br>
+		"timestamp":"2018-04-07T15:52:31.150Z",<br>
+		"location":{"lat":45.759723,"lon":4.84223},<br>
+		"model":"demo",<br>
+		"value":<br>
+		{<br>
+			"hygrometry":xx,<br>
+			"revmin":xxxx,<br>
+			"temperature":xx<br>
+		},<br>
+		"tags":["SampleLO"],<br>
+		"metadata":{"source":"urn:lo:nsid:sensor:SampleLO001","connector":"mqtt"}<br>
+	}<br>
 
 This sample generates the same payload as the Android app available at : https://play.google.com/store/apps/details?id=com.orange.lo.assetdemo <br>
+
 
 
 1) Create an account on Live Objects. You can get a free account (10 MQTT devices for 1 year) at : https://liveobjects.orange-business.com/#/request_account <br>
